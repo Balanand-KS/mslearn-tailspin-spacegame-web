@@ -64,5 +64,5 @@ steps:
   displayName: 'Deploy to Azure App Service'
   inputs:
     azureSubscription: 'BksAzureServiceConnection'
-    appName: 'bksspacegame.azurewebsites.net'
+    appName: 'BksSpaceGame'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
