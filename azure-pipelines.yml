@@ -1,3 +1,4 @@
+# Test CI trigger
 variables:
 - name: BuildParameters.RestoreBuildProjects
   value: '**/*.csproj'
