@@ -1,3 +1,5 @@
+# Test CI trigger
+
 trigger:
 - '*'
 
