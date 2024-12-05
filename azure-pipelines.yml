@@ -2,8 +2,13 @@
 trigger:
 - '*'
 
+#pool:
+#  vmImage: ubuntu-latest
+
 pool:
-  vmImage: ubuntu-latest
+  name: BksZenbookLinux
+  demands:
+    - agent.name -equals BksZenbook
 
 variables:
   buildConfiguration: 'Release'
